@@ -1,0 +1,500 @@
+   68  sfml11 main.cpp 
+   69  ./main
+   70  sfml11 main.cpp 
+   71  ./main
+   72  sfml11 main.cpp 
+   73  ./main
+   74  sfml11 main.cpp 
+   75  ./main
+   76  clear
+   77  sfml11 main.cpp 
+   78  ./main
+   79  sfml11 main.cpp 
+   80  sfml11 main.cpp
+   81  ./main
+   82  sfml11 main.cpp 
+   83  sfml11 main.cpp 
+   84  sfml11 main.cpp 
+   85  ./main
+   86  sfml11 main.cpp 
+   87  ./main
+   88  sfml11 main.cpp 
+   89  ./main
+   90  python
+   91  idle
+   92  py
+   93  python
+   94  sfml11 main.cpp 
+   95  ./main
+   96  sfml11 main.cpp 
+   97  ./main 
+   98  sfml11 main.cpp 
+   99  ./main
+  100  sfml11 main.cpp 
+  101  ./main
+  102  python
+  103  sfml11 main.cpp 
+  104  ./main
+  105  sfml11 main.cpp 
+  106  ./main
+  107  sfml11 main.cpp 
+  108  ./main
+  109  sfml11 main.cpp 
+  110  ./main
+  111  sfml11 main.cpp 
+  112  ./main
+  113  sfml11 main.cpp 
+  114  ./main
+  115  sfml11 main.cpp 
+  116  sfml11 main.cpp 
+  117  sfml11 main.cpp 
+  118  ./main
+  119  sfml11 main.cpp 
+  120  ./main
+  121  sfml11 main.cpp 
+  122  sfml11 main.cpp 
+  123  ./amin
+  124  ./main
+  125  sfml11 main.cpp 
+  126  sfml11 main.cpp 
+  127  ./main
+  128  sfml11 main.cpp 
+  129  ./main
+  130  sfml11 main.cpp 
+  131  ./main
+  132  ls
+  133  ./main
+  134  sfml11 main.cpp 
+  135  ./main 
+  136  sfml11 main.cpp 
+  137  ./main
+  138  sfml11 main.cpp 
+  139  ./main
+  140  sfml11 main.cpp 
+  141  ./main
+  142  sfml11 main.cpp 
+  143  ./main
+  144  ls
+  145  ./main
+  146  ls
+  147  sfml11 main.cpp 
+  148  ./main
+  149  sfml11 main.cpp 
+  150  ./main
+  151  ./main
+  152  sfml11 main.cpp 
+  153  sfml11 main.cpp 
+  154  sfml11 main.cpp 
+  155  ./main
+  156  sfml11 main.cpp 
+  157  sfml11 main.cpp 
+  158  sfml11 main.cpp 
+  159  sfml11 main.cpp 
+  160  sfml11 main.cpp 
+  161  sfml11 main.cpp 
+  162  sfml11 main.cpp 
+  163  ./main
+  164  sfml11 main.cpp 
+  165  sfml11 main.cpp 
+  166  ./main
+  167  sfml11 main.cpp 
+  168  ./main
+  169  sfml11 main.cpp 
+  170  ./main
+  171  sfml11 main.cpp 
+  172  ./main
+  173  sfml11 main.cpp 
+  174  ./main
+  175  ./main
+  176  ls
+  177  vim TargetUnit.
+  178  ./main
+  179  ls
+  180  le
+  181  lw
+  182  s
+  183  ls
+  184  vim PlayerUnit.cpp 
+  185  ./main
+  186  vim PlayerUnit.cpp 
+  187  cd Desktop/Adventures/SFML/include/SFML/
+  188  ls
+  189  cd Graphics
+  190  ls
+  191  cd ..
+  192  cd Window
+  193  ls
+  194  vim E
+  195  vim Event.hpp 
+  196  buildC average.c 
+  197  ./average
+  198  ./average feefa
+  199  ./average feefa fakefj efaeaf
+  200  vim average.c 
+  201  ls
+  202  vim average
+  203  rm average
+  204  vim average.c 
+  205  cd ..
+  206  ls
+  207  cd hw1/
+  208  ls
+  209  vim MusicLibrary.c 
+  210  cd lab1
+  211  ls
+  212  cd ..
+  213  cd lab1
+  214  ls
+  215  vim average.c 
+  216  buildC average.c 
+  217  vim average.c 
+  218  buildC average
+  219  buildC average.c 
+  220  ./average numbers.dat 
+  221  vim average.c 
+  222  buildC average
+  223  buildC average.c
+  224  vim average.c 
+  225  buildC average.c 
+  226  ./average numbers.dat 
+  227  vim average.c 
+  228  buildC average.c 
+  229  ./average numbers.dat 
+  230  vim average.c 
+  231  buildC average.c 
+  232  vim average.c 
+  233  buildC average.c 
+  234  ./average
+  235  ./average numbers.dat 
+  236  gcc -ggdb average.c 
+  237  ls
+  238  rm average
+  239  ls
+  240  gdb a.out
+  241  ls
+  242  rm a.out
+  243  rm -r a.out.dSYM/
+  244  vim average.c 
+  245  cd
+  246  ls -a
+  247  vim .bashrc 
+  248  echo $PATH
+  249  pwd
+  250  vi .bashrc 
+  251  vi .bashrc 
+  252  ls
+  253  cd D
+  254  cd Desktop/
+  255  ls
+  256  cd uciW16/
+  257  ls
+  258  cd ics53/
+  259  ls
+  260  ls
+  261  cd lab1
+  262  ls
+  263  vim average.c 
+  264  buildC average.c 
+  265  vim average.c 
+  266  buildC average.c 
+  267  vim average.c 
+  268  buildC average.c 
+  269  ./average numbers.dat 
+  270  vim average.c 
+  271  buildC average.c 
+  272  vim average.c 
+  273  buildC average.c 
+  274  vim average.c 
+  275  buildC average.c 
+  276  vim average.c 
+  277  buildC average
+  278  buildC average.c
+  279  vim average.c 
+  280  buildC average.c 
+  281  vim average.c 
+  282  buildC average.c 
+  283  ./average  numbers.dat 
+  284  buildC average.c 
+  285  vim average.c 
+  286  buildC average.c 
+  287  vim average.c 
+  288  gcc -o average.c 
+  289  gcc -o average average.c 
+  290  vim average.c 
+  291  gcc -o average average.c 
+  292  ./average numbers.dat 
+  293  vim average.c 
+  294  gcc -o average average.c 
+  295  ./average numbers.dat 
+  296  vim average.c 
+  297  gcc -o average average.c 
+  298  ./average numbers.dat 
+  299  ls
+  300  cd ..
+  301  ls
+  302  cd ..
+  303  ls
+  304  ls
+  305  vim ics53/
+  306  cd ics53/
+  307  ls
+  308  git init
+  309  git remote add origin https://github.com/ttang1/ics53.git
+  310  git push -u origin master
+  311  git push
+  312  git push --set-upstream origin master
+  313  git branch
+  314  ls
+  315  git push -u
+  316  git push --set-upstream origin master
+  317  git pull
+  318  git branch --set-upstream-to=origin/<branch> master
+  319  git remote add origin https://github.com/ttang1/ics53.git
+  320  git push -u origin master
+  321  ls
+  322  ls
+  323  cd ..
+  324  ls
+  325  mkdir ics53
+  326  cd ics53l/
+  327  ls
+  328  mv hw1 lab0 lab1 lectures ..
+  329  ls
+  330  cd ..
+  331  ls
+  332  rm -r ics53l
+  333  mv lab1 lab0 hw1 lectures ics53/
+  334  cd ics53/
+  335  ls
+  336  git remote add origin https://github.com/ttang1/ics53.git
+  337  git init
+  338  git remote add origin https://github.com/ttang1/ics53.git
+  339  git push -u origin master
+  340  git push https://github.com/ttang1/ics53.git
+  341  ls
+  342  git add *
+  343  git push
+  344  git push -u origin master
+  345  git commit -m "created files"
+  346  git push -u origin master
+  347  ls
+  348  cd lab
+  349  cd lab1
+  350  ls
+  351  rm average
+  352  cd ..
+  353  ls
+  354  cd lab0
+  355  ls
+  356  rm a.out
+  357  rm -r a.out.dSYM/
+  358  ls
+  359  cd ..
+  360  git add *
+  361  git diff
+  362  git statud
+  363  git status
+  364  git commit -m "deleted exe"
+  365  git push -u origin master
+  366  ls
+  367  git commit -m "deleted e
+  368  cd Desktop
+  369  ls
+  370  cd uciW16/
+  371  ls
+  372  cd ics53/
+  373  ks
+  374  ls
+  375  mkdir lab1
+  376  cd l
+  377  cd lab1
+  378  ls
+  379  vim average.c
+  380  vim numbers.dat
+  381  buildC average.c 
+  382  bash
+  383  ls
+  384  main
+  385  ls
+  386  cd Desktop/
+  387  ls
+  388  ls
+  389  vim main.cpp 
+  390  g++ -ggdb main.cpp 
+  391  a.out --memcheck
+  392  ./a.out --memcheck
+  393  valgrind --memcheck a.out
+  394  ./valgrind --memcheck a.out
+  395  ./a.out --memcheck
+  396  ./valgrind
+  397  valgrind
+  398  bash
+  399  valgrind
+  400  valgrind --memcheck
+  401  valgrind -memcheck
+  402  valgrind --memcheck a.out
+  403  valgrind a.out
+  404  valgrind main
+  405  valgrind --memcheck main
+  406  ls
+  407  c dp
+  408  cd projects/
+  409  ls
+  410  vim game/
+  411  cd game/
+  412  ls
+  413  sfml11 main.cpp 
+  414  vim RingShape.hpp 
+  415  sfml11 main.cpp 
+  416  vim RingShape.hpp 
+  417  sfml11 main.cpp 
+  418  vim RingShape.hpp 
+  419  sfml11 main.cpp 
+  420  vim RingShape.hpp 
+  421  sfml11 main.cpp 
+  422  vim RingShape.hpp 
+  423  sfml11 main.cpp 
+  424  vim RingShape.hpp 
+  425  sfml11 main.cpp 
+  426  vim RingShape.hpp 
+  427  sfml11 main.cpp 
+  428  vim RingShape.hpp 
+  429  sfml11 main.cpp 
+  430  ./main
+  431  vim Game.cpp 
+  432  sfml11 main
+  433  vim Game.cpp 
+  434  vim Game.cpp 
+  435  vim Game.cpp 
+  436  vim Game.cpp 
+  437  vim Game.cpp 
+  438  ls
+  439  vim Unit.cpp 
+  440  ls
+  441  vim Unit.cpp 
+  442  cd ..
+  443  cd ..
+  444  ls
+  445  cd uciW16/
+  446  cd cs161/
+  447  l
+  448  ls
+  449  vim ch1_notes.txt
+  450  python
+  451  ssh ttang1@openlab.ics.uci.edu
+  452  ssh ttang1@openlab.ics.uci.edu
+  453  f
+  454  f
+  455  as
+  456  cd Desktop/
+  457  la
+  458  dirs
+  459  lsd
+  460  ls
+  461  vim main.c
+  462  rm main
+  463  ls
+  464  vim main.cpp 
+  465  vim main.c
+  466  exit
+  467  cd Desktop/uciW16/ics53/
+  468  ls
+  469  cd lectures/
+  470  ls
+  471  vim lec3.c
+  472  pushd Desktop/uciW16/ics53/lab1
+  473  ls
+  474  vim average.c 
+  475  cd
+  476  cd Desktop/
+  477  vim main.c
+  478  ls
+  479  cd ..
+  480  cd bin/
+  481  ls
+  482  vim buildC
+  483  cd
+  484  cd Desktop/
+  485  vim main.c
+  486  buildC main.c
+  487  bash
+  488  buildC main.c
+  489  ./main
+  490  vim lec3.c
+  491  vim .vimrc 
+  492  ls
+  493  cd vim
+  494  .vim
+  495  cd .vim
+  496  ls
+  497  cd colors/
+  498  ls
+  499  cd tang.vim 
+  500  vim tang.vim 
+  501  cd Desktop/
+  502  ls
+  503  cd uciW16/ics53/
+  504  ls
+  505  mkdir lab1
+  506  cd l
+  507  cd lab1
+  508  cd ..
+  509  mkdir labs
+  510  mv lab* labs/
+  511  mv lab1 labA labB labs/
+  512  mv lab1 labs/
+  513  ls
+  514  cd labs/
+  515  ls
+  516  mkdir A
+  517  ls
+  518  cd labA
+  519  ls
+  520  mv * ../A/
+  521  ls
+  522  cd ..
+  523  rm labA
+  524  rm -r labA
+  525  ls
+  526  mkdir B
+  527  cd labB
+  528  ls
+  529  mv * ../B/
+  530  ls
+  531  cd ..
+  532  rm labB
+  533  ls
+  534  rm -r labB
+  535  mkdir 1
+  536  cd lab1/
+  537  mv * ../1/
+  538  ls
+  539  cd ..
+  540  ls
+  541  cd lab1/
+  542  ls
+  543  cd ..
+  544  ls
+  545  cd 1
+  546  ls
+  547  ls
+  548  cd ..
+  549  ls
+  550  rm lab1/
+  551  rm -r lab1/
+  552  ls
+  553  cd l
+  554  cd 1
+  555  ls
+  556  vim q1.c
+  557  ls
+  558  ls
+  559  vim parseCmd.c
+  560  history
+  561  history > test.txt
+  562  ls
+  563  vim test.txt 
+  564  ls
+  565  rm test.txt 
+  566  vim parseCmd.c 
+  567  history > test.txt
