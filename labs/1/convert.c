@@ -158,7 +158,12 @@ char peekc() {
 	return ch;
 }
 void parseWord(char A[]) {
-	
+	char ch;
+	int count = 1;
+	while(isalpha(ch = getchar())) {
+		A[i++] = ch;
+	}
+	return A
 }
 
 void engToInt() {
@@ -175,9 +180,6 @@ void engToInt() {
 					word[0] = ch;
 					return parseWord(word);
 				break;
-				
-
-
 		}
 	}
 }
@@ -191,7 +193,7 @@ void engToInt() {
 
 int main (int argc, char* argv[])
 {	
-	/*
+
 	iToEng(1);
 	iToEng(5);
 	iToEng(10);
@@ -202,16 +204,16 @@ int main (int argc, char* argv[])
 	iToEng(84177);
 	iToEng(111111);
 	iToEng(999999);
-	*/
+	
 
 	//engToInt();
-	char ch;
+/*	char ch;
 	while((ch=getchar()) != EOF) 
 	{
 		printf("%c", ch);
 		if(isdigit(peekc()))
 			printf("\nNUM");
 	}
-
+*/
 	return 0;
 }
