@@ -100,6 +100,9 @@ void store_MusicLibrary()
 		write_song(library[i]);
 }
 
+/*============================
+	FOR READ SONG!!
+============================*/
 void parseTitleArtist(char* word )
 {
 	char ch;
