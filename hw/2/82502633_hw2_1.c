@@ -119,7 +119,6 @@ char* tang_strncat(char* dest, const char* src, size_t n)
 {
 	int i;
 	int len = tang_strlen(dest);
-	printf("%d\n", len);
 	for(i = 0; src[i] != '\0'; ++i)
 		dest[len + i] = src[i];
 	dest[len + n] = '\0';
@@ -389,12 +388,5 @@ int main()
 	test_strspn();
 	test_strstr();
 	test_strtok();
-	
-	char d1[30] = "cool";
-	printf("$$%s$$\n", (tang_strncat(d1, "whiplash", 4), "coolwhip"));
-	printf("%s\n", d1);
-	
-
-
 	return 0;
 }
