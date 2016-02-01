@@ -6,4 +6,4 @@ main.o: main.c
 my_ls.o: my_ls.c
 	@gcc -c my_ls.c
 clean:
-	@rm *.o
+	@rm *.o my_ls

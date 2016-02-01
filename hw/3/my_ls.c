@@ -71,7 +71,8 @@ int do_ls(char* dirName)
 	// loop through directory 
 	while ((entry = readdir(dir)))
 	{
-		stat(entry->d_name, &ent_stat);
+		snprintf(path, sizeof(path), "%s/%s", dirName, entry->d_name);
+		stat(path, &ent_stat);
 		if (strcmp(entry->d_name, ".") != 0 && strcmp(entry->d_name, "..") != 0)
 			get_verbose(entry->d_name, ent_stat);	
 		
