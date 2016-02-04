@@ -4,14 +4,9 @@
 #include <dirent.h>
 #include "my_ls.h"
 
-int main(int argc, char* argv[])
+int main() 
 {
-	char* filename = argv[1];
-	
-	if (filename == NULL)
-		filename = ".";
-	
-	do_ls(filename);
+	printf("%s \n", rwx[1]);
 
 	return 0;
 }
