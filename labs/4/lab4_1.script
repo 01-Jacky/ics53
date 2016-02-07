@@ -1,0 +1,32 @@
+Script started on Thu Feb  4 20:24:10 2016
+[?1034h$ make clean
+rm cf reversePolish wl
+rm: cf: No such file or directory
+rm: wl: No such file or directory
+make: *** [clean] Error 1
+$ me[K[Kmake reversePolish.c [K[K[K
+gcc reversePolish.c -o reversePolish
+$ ./reversePolish 
+256 2 32767 2 * 2 + s / p
+256
+$ ./reversePolish 
+-123456789 2 * ^[[D^[[D^[[D                44+  + 88 + 99 + 987654321 - 4 * 2 / p
+-2222221758
+$ ./reversePolish 
+4 d d* *    * * p
+64
+$ ./reversePolish 
+5 d d d * * * p
+625
+$ 20 5 + +[K100 + 5 / p
+bash: 20: command not found
+$ 20 5 + 100 + 5 / p[C[C[2P./reversePolish 
+20 5 + 100 + 5 / p
+25
+$ ./reversePolish 
+4 3 * 6/  / p
+2
+$ exit
+exit
+
+Script done on Thu Feb  4 20:34:39 2016
