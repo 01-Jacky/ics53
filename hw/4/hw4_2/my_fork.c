@@ -39,6 +39,7 @@ void runChildren(int sz, char c[])
 				exit(0);
 				break;
 			default:
+				// do parent stuff
 				break;
 		}
 	}

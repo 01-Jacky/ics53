@@ -1,0 +1,18 @@
+"If" Homer Simpson is an idiot savant.
+
+a)3wcwan<space>idiot<esc>
+
+b)maI"IF"<space><esc>
+
+c)`aea<space>savant<esc>
+
+d)`a(erf
+
+e)O<esc>ZZ
+
+f):imap \fo for( ; ; )<cr>{<cr><tab><cr>}<esc>%keea
+
+g):map !S :%s/<tab>/<space><space><space><space>/g
+
+
+
