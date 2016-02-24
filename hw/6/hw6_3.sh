@@ -18,7 +18,7 @@ echo
 
 echo "3d. move all files anywhere below your home directory that have the extension '.o' or '.out' into a specal directory called '.trash' contained in your home directory. Be careful not to move files from .trash to .trash (hint: use find). Also, you should create .trash before executing your command."
 echo
-mv *.o *.out .trash
+find ~ -name "*.[o|out]" -exec mv {} ~/.trash/ \;
 echo
 echo
 

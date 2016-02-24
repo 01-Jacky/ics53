@@ -1,7 +1,7 @@
 /*
 	Thomas Tang
 	82502633
-	ICS53 HW5
+	ICS53 HW6
 	my_shell.c
 */
 #include <fcntl.h> // for open()
@@ -11,6 +11,7 @@
 #include <unistd.h> // read() write() close()
 #include <sys/types.h>
 #include <limits.h>
+
 
 int is_space(char ch)
 {
@@ -22,11 +23,16 @@ int is_redirection(char ch)
 	return ch == '<' || ch == '>';
 }
 
+int is_bg_pipe(char ch)
+{
+	return ch == '&' || ch == '|';
+}
+
 void parse(char* input, char** args)
 {
 	while(*input != '\0' )
 	{
-		while (is_space(*input) || is_redirection(*input))
+		while (is_space(*input) || is_redirection(*input) || is_bg_pipe(*input))
 		{
 			switch(*input)
 			{
@@ -36,11 +42,17 @@ void parse(char* input, char** args)
 				case '>':
 					*args++ = ">\0";
 					break;
+				case '|':
+					*args++ = "|\0";
+					break;
+				case '&':
+					*args++ = "&\0";
+					break;
 			}
 			*input++ = '\0';
 		}
 		*args = input;
-		while (!is_space(*input) && *input != '\0' && !is_redirection(*input)) 
+		while (!is_space(*input) && *input != '\0' && !is_redirection(*input) && !is_bg_pipe(*input)) 
 			input++;
 		if(strlen(input) == 0)
 			*args = NULL;
@@ -52,7 +64,8 @@ void parse(char* input, char** args)
 void execute(char** args)
 {	
 	pid_t pid;
-	int status, i = 0, fdin, fdout, is_in = 0, is_out = 0;
+	int status, i = 0, fdin, fdout;
+	int is_in = 0, is_out = 0, pipe = 0, bg = 0;
 	char input[64], output[64];
 	switch(pid = fork())
 	{
@@ -74,11 +87,27 @@ void execute(char** args)
 					strcpy(output, args[i]);
 					is_out = 1;
 				}
+				else if (strcmp(args[i], "|") == 0)
+				{
+					args[i++] = NULL;
+					strcpy(output, args[i]);
+					pipe = 1;
+				}
+				else if (strcmp(args[i], "&") == 0)
+				{
+					printf("background\n");
+					fflush(stdout);
+					args[i++] = NULL;
+					bg = 1;
+				}
 				else
 					i++;
 			}
 
-			if (is_in == 1)
+			if (bg)
+				setpgid(0, 0);
+
+			if (is_in)
 			{
 				if ((fdin = open(input, O_RDONLY)) < 0)
 				{
@@ -89,7 +118,7 @@ void execute(char** args)
 				close(fdin);
 			}
 			
-			if (is_out == 1)
+			if (is_out)
 			{
 				if ((fdout = open(output, O_WRONLY| O_CREAT, S_IRUSR| S_IRGRP| S_IROTH| S_IWUSR)) < 0)
 				{
@@ -102,11 +131,15 @@ void execute(char** args)
 
 			if (execvp(args[0], args) < 0)
 			{
+				perror(args[0]);
 				exit(1);
 			}
 		default:
-			while (wait(&status) != pid)
-				continue;
+			if (bg) 
+				exit(0);
+			else
+				while (wait(&status) != pid)
+					continue;
 			break;
 	}
 }
