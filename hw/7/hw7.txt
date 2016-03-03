@@ -2,8 +2,8 @@ ICS 53
 HW 7
 1) (100 pts) Write Bash scripts to do each of the following:
 
-	1) (10 pts) Write a script called ‘my_which’ that does the same thing as the Unix 
-	which command, but do it using a for loop over an if. Obviously, DO NOT call bash’s 
+	1) (10 pts) Write a script called "my_which" that does the same thing as the Unix 
+	which command, but do it using a for loop over an if. Obviously, DO NOT call bash"s 
 	built-in `which` in your solution.
 
 	
@@ -17,9 +17,9 @@ HW 7
 		directory tree and count all in and below)
 		
 		c) list all of the files in and below the directory that are zero length 
-		(you may use the ‘find’ command for this)		
+		(you may use the "find" command for this)		
 		
-		d) use ‘du’ to display the total amount of storage space (bytes or blocks - your choice) 
+		d) use "du" to display the total amount of storage space (bytes or blocks - your choice) 
 		used by this directory (including all files and directories contained within)
 		
 		e) To test your script, you should create some subdirectories, some files that are zero 
@@ -40,7 +40,7 @@ HW 7
 	not handle -o which is OR.  
 	
 	Here is a sample command:
-		$ my_find $HOME -name ‘*.o’ -type f -print -exec /bin/mv {} ~/.TRASH \;
+		$ my_find $HOME -name "*.o" -type f -print -exec /bin/mv {} ~/.TRASH \;
 
 
 
