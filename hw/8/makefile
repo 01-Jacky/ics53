@@ -1,6 +1,0 @@
-
-
-
-clean:
-
-strip:
